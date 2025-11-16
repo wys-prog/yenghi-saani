@@ -22,7 +22,7 @@ This is also why some Yenghi expressions might not be directly translatable into
 
 ---
 
-## **Kanakaï**
+## **Kanakaï (كاناكايى)**
 
 This is the table used for conjugation in Yenghi. According to the Legend of the Great Naame, a similar system existed in the ancient language. Its name was close to **Kanakaï**, though its exact form is unknown. The term comes from *kana*, meaning “letter,” “fragment,” or “piece of meaning.” The ending *–kaï* means “distribution.” Thus, Kanakaï represents the grouping of roots, and knowing a root’s group tells you how to conjugate it.
 
@@ -30,12 +30,33 @@ The full set of Kanakaï is called **Kankaïlar** (not *Kanakaïlar*), because *
 
 | Name         | Content                                                                 | Usage                               |
 | ------------ | ----------------------------------------------------------------------- | ----------------------------------- |
-| **Turki**    | Turkic words                                                            | Default                             |
-| **Atta**     | Mongolian words (because Mongolians are considered ancestral relatives) | Poetry, proverbs, wise sayings      |
-| **Arabiyya** | Arabic words                                                            | Academic speech, religious contexts |
-| **Farsiyya** | Persian (Farsi) words                                                   | Science                             |
-| **Nahaan**   | Ancient or unknown-origin words                                         | Poetry, old tales                   |
-| **Yeqin**    | “Near”; for Japanese, Korean, and some Mongolian words                  | Free usage                          |
-| **Basqa**    | “Other”; words from all other languages                                 | No special usage                    |
+| **Turki (تۈركى)**    | Turkic words                                                            | Default                             |
+| **Atta (ئاتتا)**     | Mongolian words (because Mongolians are considered ancestral relatives) | Poetry, proverbs, wise sayings      |
+| **Arabiyya (ئاربييا)** | Arabic words                                                            | Academic speech, religious contexts |
+| **Farsiyya (فارسىييا)** | Persian (Farsi) words                                                   | Science                             |
+| **Nahaan (ناھان)**   | Ancient or unknown-origin words                                         | Poetry, old tales                   |
+| **Yeqin (يەقن)**    | “Near”; for Japanese, Korean, and some Mongolian words                  | Free usage                          |
+| **Basqa (باسق)**    | “Other”; words from all other languages                                 | No special usage                    |
 
 > **Note:** Because Mandarin Chinese historically interacted with Turkic peoples, Mandarin words may also be placed under **Yeqin**. The Yeqin category has more complex rules regarding origins.
+
+---
+
+## **Yenghi Writing System (Yenghi-Arabic)**
+
+1. Yenghi uses **Uyghur-Arabic script** as the base.
+2. **Letters represent both sound and semantic ideas**.
+
+   * Each letter is tied to a concept or root family.
+   * Example: The letter “ئ / a” might represent “creation, beginning, source.”
+3. **Roots are written as letter sequences**, not just phonetic words.
+
+   * Each root can generate multiple words through affixes or Kanakaï rules.
+4. **Diacritics for pronunciation and meaning nuances**
+
+   * Small marks indicate tense, plurality, or Kanakaï category.
+
+5. **Letters carry both sound and meaning**.
+6. **Roots are the atomic unit**, combined with diacritics and affixes.
+7. **Kanakaï categories** can be shown visually if desired.
+8. **Right-to-left**, similar to Arabic, but reading rules differ.
