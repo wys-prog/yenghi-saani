@@ -1,3 +1,5 @@
+[Home](../index.html)
+
 # **Yenghi-saan Language (Yenghi-saani)**
 
 In a world that keeps changing, many parts of Turkic identity are slowly fading — especially the language.
@@ -60,3 +62,8 @@ The full set of Kanakaï is called **Kankaïlar** (not *Kanakaïlar*), because *
 6. **Roots are the atomic unit**, combined with diacritics and affixes.
 7. **Kanakaï categories** can be shown visually if desired.
 8. **Right-to-left**, similar to Arabic, but reading rules differ.
+
+> You can learn the alphabet's letters [there](./alphabet.md).
+> You don't need to know reading directly, but reading is clearly something that could help you.
+
+[Home](./../../index.html) — [Next lesson](./../1/grammar/subjects/1.md)
