@@ -1,5 +1,8 @@
 #!/bin/bash
 
+CSS_FILE="./themes/uyghur-theme.css"
+CSS_INLINE="<style>@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Scheherazade+New&display=swap');</style>"
+
 # Remove all existing HTML files
 echo "Cleaning build directory..."
 find build -name "*.html" -type f -exec rm -v {} \;
@@ -20,7 +23,12 @@ find lessons -name "*.md" | while read -r f; do
   out="$out_dir/$filename.html"
   echo "Compiling $f -> $out"
   
-  pandoc "$f" -o "$out" --css /themes/uyghur-theme.css --to html5 --from markdown --standalone
+  # Compile with Pandoc, injecting CSS inline
+  echo $CSS_INLINE > "$out"
+  pandoc "$f" \
+    --to html5 \
+    --from markdown \
+    --standalone >> "$out"
   
   # Fix links to other markdown files
   sed -i '' 's/\.md"/.html"/g' "$out"
@@ -30,7 +38,8 @@ done
 # Generate a single index.html at build/
 echo "Generating single index.html..."
 index_file="build/index.html"
-echo '<link rel="stylesheet" href="/themes/uyghur-theme.css" /><h1>Home page — Yenghi-saani</h1>' > "$index_file"
+echo "<style>$CSS_INLINE</style>" > "$index_file"
+echo '<h1>Home page — Yenghi-saani</h1>' >> "$index_file"
 cat templates/header.html >> "$index_file"
 echo "<h2>Table of content</h2>" >> "$index_file"
 echo "<ul>" >> "$index_file"
