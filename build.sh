@@ -1,9 +1,6 @@
 #!/bin/bash
 
 CSS_FILE="./themes/uyghur-theme.css"
-CSS_INLINE="<style>@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Scheherazade+New&display=swap');</style>"
-
-# Remove all existing HTML files
 echo "Cleaning build directory..."
 find build -name "*.html" -type f -exec rm -v {} \;
 
@@ -24,11 +21,12 @@ find lessons -name "*.md" | while read -r f; do
   echo "Compiling $f -> $out"
   
   # Compile with Pandoc, injecting CSS inline
-  echo $CSS_INLINE > "$out"
   pandoc "$f" \
     --to html5 \
     --from markdown \
-    --standalone >> "$out"
+    --self-contained  \
+    --template=templates/files.html \
+    --standalone -o "$out"
   
   # Fix links to other markdown files
   sed -i '' 's/\.md"/.html"/g' "$out"
