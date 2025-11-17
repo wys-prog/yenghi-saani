@@ -108,3 +108,31 @@ hr {
     border-top: 2px dashed #d5c4a2;
     margin: 2rem 0;
 }
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    html, body {
+        font-size: 18px; /* Slightly smaller base font size */
+        line-height: 1.8; /* Increase line height for better readability */
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .poem, blockquote {
+        font-size: 1.2rem;
+    }
+
+    pre {
+        font-size: 0.9rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}

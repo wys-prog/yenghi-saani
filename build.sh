@@ -39,6 +39,9 @@ index_file="build/index.html"
 echo "<style>$CSS_INLINE</style>" > "$index_file"
 echo '<h1>Home page — Yenghi-saani</h1>' >> "$index_file"
 cat templates/header.html >> "$index_file"
+
+echo "<h3><a href="0/overview.html">learn</a></h3>" >> "$index_file"
+
 echo "<h2>Table of content</h2>" >> "$index_file"
 echo "<ul>" >> "$index_file"
 
