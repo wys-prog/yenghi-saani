@@ -24,7 +24,7 @@ find lessons -name "*.md" | while read -r f; do
   pandoc "$f" \
     --to html5 \
     --from markdown \
-    --self-contained  \
+    --embed-resources --standalone \
     --template=templates/files.html \
     --standalone -o "$out"
   
